@@ -21,7 +21,7 @@
         <nav class="primary-nav">
           <ul role="list" class="nav-list">
             <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#contactme">Contact</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Galleries</a></li>
@@ -31,7 +31,7 @@
         <main>
           <section>
             <div class="container">
-              <div class="even-columns">
+              <div id="about" class="even-columns">
                 <h1>Hi, I'm Kristian Buriasco</h1>
                 <p>
                   I'm a photographer and Web Developer based in Piedmont, Italy
@@ -85,8 +85,21 @@
                   <li><a aria-label="googlemaps" href="#"></a></li>
                 </ul>
               </div>
-              <div></div>
-              <div></div>
+              <div>
+                <ul role="list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contactme">Contact</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Galleries</a></li>
+                </ul>
+              </div>
+              <div>
+                <form action="">
+                  <input type="email" name="email" id="email" placeholder="Subscribe to my newsletter" />
+                  <button class="button">Go</button>
+                </form>
+              </div>
             </div>
           </div>
         </footer>
