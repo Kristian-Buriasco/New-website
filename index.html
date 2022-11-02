@@ -17,7 +17,9 @@
     <script type="module" src="/main.js"></script>
     <header class="primary-header">
       <div class="container">
-        <a href="#"><img src="logo.png" alt="Website logo" /></a>
+        <a href="#"
+          ><img class="logo-png" src="logo.png" alt="Website logo"
+        /></a>
         <nav class="primary-nav">
           <ul role="list" class="nav-list">
             <li><a href="#">Home</a></li>
@@ -28,13 +30,19 @@
           </ul>
         </nav>
         <button class="button">Dark Mode</button>
+        <div class="button b2" id="button-16">
+          <input type="checkbox" class="checkbox">
+          <div class="knobs"></div>
+          <div class="layer"></div>
+        </div>
+
         <main>
           <section>
             <div class="container">
               <div id="about" class="even-columns">
                 <h1>Hi, I'm Kristian Buriasco</h1>
                 <p>
-                  I'm a photographer and Web Developer based in Piedmont, Italy
+                  I'm a Photographer and Web Developer based in Piedmont, Italy
                 </p>
                 <button class="button">Contact Me</button>
               </div>
@@ -48,10 +56,6 @@
               <div class="container even-columns">
                 <div>
                   <h2>My Works</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam, quae.
-                  </p>
                   <!--Create image gallery carousel-->
                 </div>
               </div>
@@ -77,7 +81,7 @@
           <div class="container">
             <div class="even-columns">
               <div>
-                <img src="/logo.png" alt="Website Logo" />
+                <img class="logo-png" src="/logo.png" alt="Website Logo" />
                 <ul role="list" aria-label="social links">
                   <li><a aria-label="facebook" href="#"></a></li>
                   <li><a aria-label="twitter" href="#"></a></li>
@@ -96,7 +100,12 @@
               </div>
               <div>
                 <form action="">
-                  <input type="email" name="email" id="email" placeholder="Subscribe to my newsletter" />
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Subscribe to my newsletter"
+                  />
                   <button class="button">Go</button>
                 </form>
               </div>
