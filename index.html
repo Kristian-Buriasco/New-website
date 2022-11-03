@@ -17,25 +17,31 @@
     <script type="module" src="/main.js"></script>
     <header class="primary-header">
       <div class="container">
+        <div class="nav-wrapper">
         <a href="#"
           ><img class="logo-png" src="logo.png" alt="Website logo"
         /></a>
-        <nav class="primary-nav">
-          <ul role="list" class="nav-list">
+        <button class="mobile-nav-toggle" id="primary-nav" aria-expanded="false" aria-controls="primary-nav">
+          <img class="icon-hamburger" src="icons8-menu.svg" alt="" aria-hidden="true">
+          <img class="icon-close" src="1544761977.svg" alt="" aria-hidden="true">
+          <span class="visually-hidden">Menu</span></button>
+        <nav class="primary-nav" >
+          <ul role="list"  class="nav-list">
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contactme">Contact</a></li>
             <li><a href="http://blog.kristianburiascophotos.gq/">Blog</a></li>
             <li><a href="galleries.html">Galleries</a></li>
           </ul>
+          <button class="not1button">Dark Mode</button>
+          <div class="button b2" id="button-16">
+            <input type="checkbox" class="checkbox">
+            <div class="knobs"></div>
+            <div class="layer"></div>
+          </div>
         </nav>
-        <button class="button">Dark Mode</button>
-        <div class="button b2" id="button-16">
-          <input type="checkbox" class="checkbox">
-          <div class="knobs"></div>
-          <div class="layer"></div>
-        </div>
-
+      </div>
+      </div>  
         <main>
           <section>
             <div class="container">
@@ -44,7 +50,7 @@
                 <p>
                   I'm a Photographer and Web Developer based in Piedmont, Italy
                 </p>
-                <button class="button">Contact Me</button>
+                <button class="not1button">Contact Me</button>
               </div>
               <div>
                 <img src="" alt="" />
@@ -106,7 +112,7 @@
                     id="email"
                     placeholder="Subscribe to my newsletter"
                   />
-                  <button class="button">Go</button>
+                  <button class="not1button">Go</button>
                 </form>
               </div>
             </div>
