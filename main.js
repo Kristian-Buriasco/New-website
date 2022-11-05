@@ -11,15 +11,26 @@ navToggle.addEventListener("click", () => {
   disablescroll.toggleAttribute("disableoverflow");
 });
 
-// function myFunction() {
-//   var element = document.body;
-//   element.classList.toggle("dark-mode");
-// }
+let isdarkmodeon = localStorage.getItem("Darkmodechoice");
 
 function darking_mode() {
   var element = document.body;
   element.classList.toggle("dark-mode");
   var element2 = document.querySelector(".icon-hamburger");
   element2.classList.toggle("svg-dark");
+  localStorage.setItem("Darkmodechoice", isdarkmodeon.toString());
 };
-document.getElementById("dark-mode-button").onclick = darking_mode;
+
+window.onload = function () {
+  if (isdarkmodeon == 1) {
+    darking_mode();
+  }
+};
+
+document.getElementById("dark-mode-button").addEventListener("click",() => {
+ document.body.classList.contains("dark-mode") 
+    ? isdarkmodeon = 0 
+    : isdarkmodeon = 1;
+ darking_mode();
+});
+
