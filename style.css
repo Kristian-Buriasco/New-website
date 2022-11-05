@@ -20,10 +20,10 @@
 .dark-mode {
   --bg-clr: #252526;
   --txt-clr: #007acc;
-  --bgr-btn-clr: rgba(0, 62, 120, 0.863);
-  --bgr-btn-clr-hover: rgb(80, 136, 189);
+  --bgr-btn-clr:#1177bb;
+  --bgr-btn-clr-hover: #17a2ff;
   --clr-nav-link: #3e3e42;
-  --clr-nav-link-hover: rgb(0, 182, 168);
+  --clr-nav-link-hover: #9cdcfe;
   --footer-bg-clr: #2d2d30;
   --nav-color-bgr: #1e1e1e;
 }
@@ -214,19 +214,19 @@ input:checked + .slider:before {
 
 /* Button 16 */
 #button-16 .knobs:before {
-  content: "ITA";
+  content: "ENG";
   position: absolute;
   top: 4px;
   left: 4px;
   width: 35px;
   height: 30px;
-  color: --txt-clr;
+  color: var(--clr-nav-link);
   font-size: 12px;
   font-weight: bold;
   text-align: center;
   line-height: 1;
   padding: 9px 4px;
-  background-color: #c9ff73;
+  background-color: var(--bgr-btn-clr-hover);
   border-radius: 2px;
   transition: 0.3s ease all, left 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15);
 }
@@ -240,9 +240,9 @@ input:checked + .slider:before {
 }
 
 #button-16 .checkbox:checked + .knobs:before {
-  content: "ENG";
+  content: "ITA";
   left: 42px;
-  background-color: #7a9dff;
+  background-color: var(--bgr-btn-clr-hover);
 }
 
 #button-16 .checkbox:checked ~ .layer {
