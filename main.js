@@ -1,17 +1,20 @@
 const primaryHeader = document.querySelector('.primary-header');
 const navToggle = document.querySelector(".mobile-nav-toggle");
 const primaryNav = document.querySelector(".primary-nav");
-const disablescroll = document.querySelector(".body");
+const disablescrolldiv = document.querySelector(".body");
+const disablescrollbody = document.body;
 navToggle.addEventListener("click", () => {
   primaryNav.hasAttribute("data-visible")
     ? navToggle.removeAttribute("aria-expanded", true)
     : navToggle.setAttribute("aria-expanded", false);
   primaryNav.toggleAttribute("data-visible");
   primaryHeader.toggleAttribute("data-overlay");
-  disablescroll.toggleAttribute("disableoverflow");
+  disablescrolldiv.classList.toggle("disableoverflow");
+  disablescrollbody.classList.toggle("disableoverflow");
 });
 
 let isdarkmodeon = localStorage.getItem("Darkmodechoice");
+let lang = localStorage.getItem("lang");
 
 function darking_mode() {
   var element = document.body;
@@ -22,9 +25,18 @@ function darking_mode() {
 };
 
 window.onload = function () {
+  
+let isdarkmodeon = localStorage.getItem("Darkmodechoice");
+let lang = localStorage.getItem("lang");
   if (isdarkmodeon == 1) {
     darking_mode();
   }
+/*   if (lang == 1) {
+    document.documentElement.setAttribute("lang", "it");
+  }
+  else {
+    document.documentElement.setAttribute("lang", "en");
+  } */
 };
 
 document.getElementById("dark-mode-button").addEventListener("click",() => {
@@ -34,7 +46,16 @@ document.getElementById("dark-mode-button").addEventListener("click",() => {
  darking_mode();
 });
 
+/* lang = document.querySelector('.messageCheckbox:checked');
+console.log(lang);
+
+ function langchange(){
+    localStorage.setItem("lang", lang.toString());
+ }
 
 
+document.getElementById('button-16').addEventListener('focus', () => {
+  langchange();
+}); */
 
 

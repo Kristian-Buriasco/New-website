@@ -14,7 +14,8 @@
   --nav-color-bgr: white;
   --lineargradient: linear-gradient(rgba(255, 255, 255, 0.7), rgb(255, 255, 255));
   --slide-txt-clr: #ff9738;
-  --secondary-txt-clr: #ff9738;
+  --secondary-txt-clr: #25b8db;
+  --picker-vertical-gap: 4px;
 }
 .logo-png {
   width: 100px;
@@ -31,6 +32,7 @@
   --nav-color-bgr: #1e1e1e;
   --lineargradient: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0 0 0 /1));
   --slide-txt-clr: #ff7d39;
+  --secondary-txt-clr: #ff9738;
 }
 .svg-dark {
   -webkit-filter: invert(100%);
@@ -114,6 +116,7 @@ picture,
 svg {
   max-width: 100%;
   display: block;
+  z-index: -10;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
@@ -203,18 +206,18 @@ input:checked + .slider:before {
   margin: 0;
   opacity: 0;
   cursor: pointer;
-  z-index: 3;
+  z-index: 103;
 }
 
 .knobs {
-  z-index: 2;
+  z-index: 102;
 }
 
 .layer {
   width: 100%;
   background-color: #ebf7fc;
   transition: 0.3s ease all;
-  z-index: 1;
+  z-index: 101;
 }
 
 /* Button 16 */
@@ -283,7 +286,7 @@ footer {
   padding-top: 60px;
 
   background-color: var(--footer-bg-clr);
-  padding-bottom: 0px;
+  padding-bottom: 60px;
   margin-bottom: 0px;
   height: 50%;
 }
@@ -393,9 +396,16 @@ section {
     display: none;
     z-index: 100;
   }
+  .footer-centering{
+    display: grid;
+    text-align: center;
+  }
+  .logo-png{
+    margin-inline: auto;
+  }
 }
 
-.body[disableoverflow] {
+.disableoverflow{
   height: 100%;
   overflow-y: hidden;
 }
@@ -419,17 +429,22 @@ section {
   color: var(--bgr-btn-clr-hover);
 }
 
-#about {
+#about,#myworks {
   background-color: var(--bg-clr);
   color: var(--txt-clr);
   font-family: var(--font-family-primary);
   font-weight: var(--fw-bold);
-  font-size: 26px;
+  font-size: 28px;
   line-height: 1.5;
   padding: 30px;
 }
 #about > * + * {
   font-weight: var(--fw-regular);
+  color:var(--secondary-txt-clr);
+}
+
+#myworks{
+  text-align: center;
 }
 
 footer input[type="email"] {
@@ -482,6 +497,7 @@ img {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  z-index: -9;
 }
 /* Position the "next button" to the right */
 .next {
@@ -503,6 +519,7 @@ img {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  z-index: -9;
 }
 /* Number text (1/3 etc) */
 .numbertext {
@@ -511,6 +528,7 @@ img {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  z-index: -9;
 }
 /* The dots/bullets/indicators */
 .dot {
@@ -522,6 +540,7 @@ img {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+  z-index: -9;
 }
 .active,
 .dot:hover {
@@ -558,3 +577,14 @@ img {
     font-size: 11px
   }
 }
+
+
+
+
+
+
+
+
+
+
+/*language selector*/

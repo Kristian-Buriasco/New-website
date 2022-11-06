@@ -1,13 +1,16 @@
 
-THINGS TO DO NEXT
--fix images clipping through the mobile menu
--fix chrome trwnslation thing with javascript changing the website language
+## THINGS TO DO NEXT
+-fix images clipping through the mobile menu FIXED
+-new bug regarding overflowhidden FIXED
+-fixing footer height and centering
 -create cookies warning
--fix the my work title
+-fix the my work title SOMEWHAT FIXED
 -enable the newsletter thing to work
 -add maps
 -add contact me page
 -add galleries page
--do translation for the entire website in italian
 -design some images to go with the site
 
+## MAYBE LATER
+-do translation for the entire website in italian
+-fix chrome trwnslation thing with javascript changing the website language 
