@@ -12,6 +12,7 @@
   --fw-bold: 700;
   --footer-bg-clr: azure;
   --nav-color-bgr: white;
+  --lineargradient: linear-gradient(rgba(255, 255, 255, 0.7), rgb(255, 255, 255));
 }
 .logo-png {
   width: 100px;
@@ -26,6 +27,7 @@
   --clr-nav-link-hover: #9cdcfe;
   --footer-bg-clr: #2d2d30;
   --nav-color-bgr: #1e1e1e;
+  --lineargradient: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0 0 0 /1));
 }
 .svg-dark {
   -webkit-filter: invert(100%);
@@ -358,7 +360,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0 0 0 /1));
+    background-image: var(--lineargradient);
   }
   .nav-list {
     padding: 30px;
@@ -441,4 +443,115 @@ footer input[type="email"] {
   -o-transition: all 0.5s !important;
   -ms-transition: all 0.5s !important;
   -moz-transition: all 0.5s !important;
+}
+
+
+
+/* slideshow from w3schools */
+* {
+  box-sizing: border-box
+}
+
+.mySlides {
+  display: flex;
+  justify-content: center;
+}
+img {
+  vertical-align: middle;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: var(--txt-clr);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/* Caption text */
+.text {
+  color:var(--bgr-btn-clr-hover);
+  font-weight: var(--fw-bold);
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: var(--bgr-btn-clr-hover);
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #999999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #111111;
+}
+/* /* Fading animation 
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: .1
+  }
+  to {
+    opacity: 1
+  }
+}
+@keyframes fade {
+  from {
+    opacity: .1
+  }
+  to {
+    opacity: 1
+  }
+} */
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
 }

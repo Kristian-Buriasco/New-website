@@ -15,36 +15,57 @@
   </head>
   <body>
     <div class="body">
-    <script type="module" src="/main.js"></script>
-    <div class="notafooter">
-    <header class="primary-header">
-      <div class="container">
-        <div class="nav-wrapper">
-        <a href="#"
-          ><img class="logo-png" src="/public/logo.png" alt="Website logo"
-        /></a>
-        <button class="mobile-nav-toggle" id="primary-nav" aria-expanded="false" aria-controls="primary-nav">
-          <img class="icon-hamburger" src="/public/icons8-menu.svg" alt="" aria-hidden="true">
-          <span class="visually-hidden">Menu</span></button>
-        <nav class="primary-nav" >
-          <ul role="list"  class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contactme">Contact</a></li>
-            <li><a href="http://blog.kristianburiascophotos.gq/">Blog</a></li>
-            <li><a href="galleries.html">Galleries</a></li>
-            <li><button id="dark-mode-button" class="not1button">Dark Mode</button></li>
-            <li><div class="button b2" id="button-16">
-              <input type="checkbox" class="checkbox">
-              <div class="knobs"></div>
-              <div class="layer"></div>
-            </div></li>
-          </ul>
-
-        </nav>
-      </div>
-    </div>
-  </header> 
+      <script type="module" src="/main.js"></script>
+      <div class="notafooter">
+        <header class="primary-header">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#"
+                ><img
+                  class="logo-png"
+                  src="/public/logo.png"
+                  alt="Website logo"
+              /></a>
+              <button
+                class="mobile-nav-toggle"
+                id="primary-nav"
+                aria-expanded="false"
+                aria-controls="primary-nav"
+              >
+                <img
+                  class="icon-hamburger"
+                  src="/public/icons8-menu.svg"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <span class="visually-hidden">Menu</span>
+              </button>
+              <nav class="primary-nav">
+                <ul role="list" class="nav-list">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#contactme">Contact</a></li>
+                  <li>
+                    <a href="http://blog.kristianburiascophotos.gq/">Blog</a>
+                  </li>
+                  <li><a href="galleries.html">Galleries</a></li>
+                  <li>
+                    <button id="dark-mode-button" class="not1button">
+                      Dark Mode
+                    </button>
+                  </li>
+                  <li>
+                    <div class="button b2" id="button-16">
+                      <input type="checkbox" class="checkbox" />
+                      <div class="knobs"></div>
+                      <div class="layer"></div>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
         <main class="flow">
           <section>
             <div class="container">
@@ -66,6 +87,106 @@
                 <div>
                   <h2>My Works</h2>
                   <!--Create image gallery carousel-->
+                  <!-- Slideshow container -->
+                  <div class="slideshow-container">
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 5</div>
+                      <img
+                        src="/public/bike-woods.png"
+                        style="max-height: 700px"
+                      />
+                      <div class="text">Photoshoot with friends in the woods with motorbikes</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 5</div>
+                      <img
+                        src="/public/u18-race-pol-timestop.png"
+                        style="max-height: 700px"
+                      />
+                      <div class="text">U18 Mountain Cup in Saluzzo</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 5</div>
+                      <img
+                        src="/public/u18-sfilata-usa-hlding-flag.png"
+                        style="max-height: 700px"
+                      />
+                      <div class="text">U18 Mountain Cup in Saluzzo</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">4 / 5</div>
+                      <img
+                        src="/public/DJI_0561-1-1024x576.jpg"
+                        style="max-height: 700px"
+                      />
+                      <div class="text">Drone view of a road in spring</div>
+                    </div>
+                    <div class="mySlides fade">
+                      <div class="numbertext">5 / 5</div>
+                      <img
+                        src="/public/28092020-IMG_8414-Pano-scaled.jpg"
+                        style="max-height: 700px"
+                      />
+                      <div class="text">Panoramic view of mount Monviso </div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br />
+                  <div style="text-align: center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                  </div>
+                  <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    function plusSlides(n) {
+                      showSlides((slideIndex += n));
+                    }
+                    function currentSlide(n) {
+                      showSlides((slideIndex = n));
+                    }
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {
+                        slideIndex = 1;
+                      }
+                      if (n < 1) {
+                        slideIndex = slides.length;
+                      }
+                      for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(
+                          " active",
+                          ""
+                        );
+                      }
+                      slides[slideIndex - 1].style.display = "flex";
+                      dots[slideIndex - 1].className += " active";
+                    }
+                    // var slideIndex = 0;
+                    // showSlides();
+                    // function showSlides() {
+                    //   var i;
+                    //   var slides = document.getElementsByClassName("mySlides");
+                    //   for(i = 0; i < slides.length; i++) {
+                    //     slides[i].style.display = "none";
+                    //   }
+                    //   slideIndex++;
+                    //   if(slideIndex > slides.length) {
+                    //     slideIndex = 1
+                    //   }
+                    //   slides[slideIndex - 1].style.display = "block";
+                    //   setTimeout(showSlides, 10000); // Change image every 10 seconds
+                    // }
+                  </script>
                 </div>
               </div>
             </div>
@@ -88,43 +209,45 @@
         </main>
       </div>
 
-        <footer>
-          <div class="container">
-            <div class="even-columns">
-              <div>
-                <img class="logo-png" src="/public/logo.png" alt="Website Logo" />
-                <ul role="list" aria-label="social links">
-                  <li><a aria-label="facebook" href="#"></a></li>
-                  <li><a aria-label="twitter" href="#"></a></li>
-                  <li><a aria-label="instagram" href="#"></a></li>
-                  <li><a aria-label="googlemaps" href="#"></a></li>
-                </ul>
-              </div>
-              <div>
-                <nav class="footer-semi-nav">
+      <footer>
+        <div class="container">
+          <div class="even-columns">
+            <div>
+              <img class="logo-png" src="/public/logo.png" alt="Website Logo" />
+              <ul role="list" aria-label="social links">
+                <li><a aria-label="facebook" href="#"></a></li>
+                <li><a aria-label="twitter" href="#"></a></li>
+                <li><a aria-label="instagram" href="#"></a></li>
+                <li><a aria-label="googlemaps" href="#"></a></li>
+              </ul>
+            </div>
+            <div>
+              <nav class="footer-semi-nav">
                 <ul role="list">
                   <li><a href="#">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <li><a href="#contactme">Contact</a></li>
-                  <li><a href="http://blog.kristianburiascophotos.gq/">Blog</a></li>
+                  <li>
+                    <a href="http://blog.kristianburiascophotos.gq/">Blog</a>
+                  </li>
                   <li><a href="galleries.html">Galleries</a></li>
                 </ul>
               </nav>
-              </div>
-              <div>
-                <form action="">
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Subscribe to my newsletter"
-                  />
-                  <button class="not1button gobutton">Go</button>
-                </form>
-              </div>
+            </div>
+            <div>
+              <form action="">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Subscribe to my newsletter"
+                />
+                <button class="not1button gobutton">Go</button>
+              </form>
             </div>
           </div>
-        </footer>
-      </div>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
