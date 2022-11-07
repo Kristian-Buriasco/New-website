@@ -32,7 +32,7 @@
   --footer-bg-clr: #2d2d30;
   --nav-color-bgr: #1e1e1e;
   --lineargradient: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0 0 0 /1));
-  --slide-txt-clr: var(--txt-clr);
+  --slide-txt-clr: var(--txt-clr) ;
   --secondary-txt-clr: #ff9738;
   --darkmodemaps: grayscale(100%) invert(92%) contrast(83%);
 }
