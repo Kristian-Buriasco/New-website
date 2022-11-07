@@ -586,5 +586,24 @@ img {
 
 
 
+.social-list{
+  display: flex;
+  gap: 30px;
+}
+.social-icon{
+  width:40px;
+  height:40px;
+  fill:var(--secondary-txt-clr);
+}
 
+@media (min-width:50em) {
+  .social-list{
+    display: flex;
+    gap: 30px;
+  }
+  .social-icon{
+    width:30px;
+    height:30px;
+  }
+}
 /*language selector*/
