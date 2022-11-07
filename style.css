@@ -13,7 +13,7 @@
   --footer-bg-clr: azure;
   --nav-color-bgr: white;
   --lineargradient: linear-gradient(rgba(255, 255, 255, 0.7), rgb(255, 255, 255));
-  --slide-txt-clr: #ff9738;
+  --slide-txt-clr: var(--txt-clr);
   --secondary-txt-clr: #25b8db;
   --picker-vertical-gap: 4px;
   --darkmodemaps: grayscale(0%) invert(0%) contrast(100%);
@@ -32,7 +32,7 @@
   --footer-bg-clr: #2d2d30;
   --nav-color-bgr: #1e1e1e;
   --lineargradient: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0 0 0 /1));
-  --slide-txt-clr: #ff7d39;
+  --slide-txt-clr: var(--txt-clr);
   --secondary-txt-clr: #ff9738;
   --darkmodemaps: grayscale(100%) invert(92%) contrast(83%);
 }
@@ -513,17 +513,21 @@ img {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  
+  background-color: var(--bg-clr);
 }
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a black background color with a little bit see-through
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--bg-clr);;
 }
+ */
+
 /* Caption text */
 .text {
   color:var(--slide-txt-clr);
@@ -534,6 +538,7 @@ img {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  background-color: var(--bg-clr);
 }
 /* Number text (1/3 etc) */
 .numbertext {
@@ -542,6 +547,7 @@ img {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  background-color: var(--bg-clr)
 }
 /* The dots/bullets/indicators */
 .dot {
