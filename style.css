@@ -62,12 +62,13 @@
 .mapgoogle {
   display: flex;
   border: 0;
-  width: 37rem;
+  width: 60%;
   height: 30rem;
   border-radius: 5%;
   margin: 0 auto;
   justify-self: center;
   filter: var(--darkmodemaps);
+  margin-bottom: 50px;
 }
 /* Box sizing rules */
 *,
