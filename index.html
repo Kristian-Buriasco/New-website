@@ -206,11 +206,12 @@
                 <!--MAP GOOGLE IFRAME-->
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1440554.8852356935!2d7.844713017935769!3d45.15502755593434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25dbfa55a4b04d97%3A0x5b841de551c97b7e!2sKristian%20Buriasco%20Photos!5e0!3m2!1sit!2sit!4v1667428369897!5m2!1sit!2sit"
-                  class="mapgoogle visually-hidden"
+                  class="mapgoogle "
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
+                <!-- COULD HAVE USED THE API TO MAKE IT DARKMODE BUT WOULD HAVE TO USE TYPESCRIPT SO MIGRATE ALL OF THE JS-->
               </div>
             </div>
           </section>
@@ -221,24 +222,24 @@
         <div class="container">
           <div class="even-columns footer-centering">
             <div>
-              <img class="logo-png" src="/public/logo.png" alt="Website Logo" />
+              <img class="logo-png " src="/public/logo.png" alt="Website Logo" />
               <ul class="social-list" role="list" aria-label="social links">
-                <li><a aria-label="facebook" href="#">
+                <!-- <li><a aria-label="twitter" href="#">
+                  <svg class="social-icon visually-hidden">
+                  <use xlink:href="/public/social-icons.svg#icon-twitter"></use></svg></a></li> -->
+                <li><a aria-label="facebook" href="https://m.facebook.com/kristianburiascophoto/">
                   <svg class="social-icon" >
                   <use xlink:href="/public/social-icons.svg#icon-facebook"></use></svg>
                 </a></li>
-                <li><a aria-label="twitter" href="#">
+                <li><a aria-label="instagram" href="https://www.instagram.com/kristianburiascophotos/">
                   <svg class="social-icon">
-                  <use xlink:href="/public/social-icons.svg#icon-twitter"></use></svg></a></li>
-                <li><a aria-label="instagram" href="#"></a>
-                  <svg class="social-icon">
-                  <use xlink:href="/public/social-icons.svg#icon-instagram"></use></svg></li>
-                <li><a aria-label="googlemaps" href="#">
+                  <use xlink:href="/public/social-icons.svg#icon-instagram"></use></svg></a></li>
+                <li><a aria-label="googlemaps" href="https://goo.gl/maps/a4DdEFZHxc9qeY7p9">
                   <svg class="social-icon">
                   <use xlink:href="/public/social-icons.svg#icon-maps"></use></svg></a></li>
               </ul>
             </div>
-            <div>
+            <div class="gapping">
               <nav class="footer-semi-nav">
                 <ul role="list">
                   <li><a href="#">Home</a></li>

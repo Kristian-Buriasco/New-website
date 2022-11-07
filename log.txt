@@ -1670,3 +1670,595 @@ files in the public directory are served at the root path.
 Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
 files in the public directory are served at the root path.
 Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+
+15:00:00
+
+
+15:09:34 [vite] hmr update /style.css?direct
+15:09:34 [vite] hmr update /style.css?direct (x2)
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+15:10:16 [vite] hmr update /style.css?direct
+15:10:18 [vite] hmr update /style.css?direct (x2)
+15:10:21 [vite] hmr update /style.css?direct (x3)
+15:10:24 [vite] hmr update /style.css?direct (x4)
+15:10:44 [vite] hmr update /style.css?direct (x5)
+15:11:40 [vite] hmr update /style.css?direct (x6)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.     
+Instead of /public/social-icons.svg, use /social-icons.svg.    
+15:11:56 [vite] hmr update /style.css?direct
+15:12:50 [vite] hmr update /style.css?direct (x2)
+15:12:53 [vite] hmr update /style.css?direct (x3)
+15:12:57 [vite] hmr update /style.css?direct (x4)
+15:14:05 [vite] hmr update /style.css?direct (x5)
+15:14:32 [vite] hmr update /style.css?direct (x6)
+15:14:39 [vite] hmr update /style.css?direct (x7)
+15:14:47 [vite] hmr update /style.css?direct (x8)
+15:14:57 [vite] hmr update /style.css?direct (x9)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+15:15:45 [vite] page reload index.html
+15:15:45 [vite] Internal server error: Unable to parse HTML; parse5 error code missing-whitespace-between-attributes
+ at {"file":"/index.html","line":37,"column":53}
+36 |                  <img
+37 |                    class="icon-hamburger primary-nav""
+38 |                    src="/public/icons8-menu.svg"
+   |                                    ^
+39 |                    alt=""
+40 |                    aria-hidden="true"
+   at {"file":"/index.html","line":37,"column":53}
+      at handleParseError (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-c842e491.js:43808:11)
+      at Parser.onParseError (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-c842e491.js:43730:13)
+      at Tokenizer._err (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-19c40c50.js:1155:89)
+      at Tokenizer._stateAfterAttributeValueQuoted (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-19c40c50.js:2760:22)
+      at Tokenizer._callState (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-19c40c50.js:1666:22)
+      at Tokenizer._runParsingLoop (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-19c40c50.js:1179:22)
+      at Tokenizer.write (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-19c40c50.js:1204:14)
+      at Parser.parse (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-19c40c50.js:4896:26)
+      at parse (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-19c40c50.js:8063:19)
+      at traverseHtml (file:///C:/Users/kburi/Desktop/Nuovo%20sito%20a%20mano/New-website/node_modules/vite/dist/node/chunks/dep-c842e491.js:43727:17)
+15:15:46 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:15:56 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:16:18 [vite] hmr update /style.css?direct
+15:16:22 [vite] hmr update /style.css?direct (x2)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:16:34 [vite] hmr update /style.css?direct
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:17:14 [vite] hmr update /style.css?direct
+15:17:34 [vite] hmr update /style.css?direct (x2)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path. 
+Instead of /public/social-icons.svg, use /social-icons.svg.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:17:52 [vite] hmr update /style.css?direct
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:17:59 [vite] hmr update /style.css?direct
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path. 
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:18:21 [vite] hmr update /style.css?direct
+15:18:24 [vite] hmr update /style.css?direct (x2)
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+15:19:05 [vite] hmr update /style.css?direct
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:19:11 [vite] hmr update /style.css?direct
+15:19:24 [vite] hmr update /style.css?direct (x2)
+15:19:28 [vite] hmr update /style.css?direct (x3)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:20:17 [vite] hmr update /style.css?direct
+15:20:30 [vite] hmr update /style.css?direct (x2)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.    
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+15:20:41 [vite] hmr update /style.css?direct
+15:20:47 [vite] hmr update /style.css?direct (x2)
+15:21:00 [vite] hmr update /style.css?direct (x3)
+15:21:44 [vite] hmr update /style.css?direct (x4)
+15:21:50 [vite] hmr update /style.css?direct (x5)
+15:21:53 [vite] hmr update /style.css?direct (x6)
+15:22:00 [vite] hmr update /style.css?direct (x7)
+15:22:12 [vite] hmr update /style.css?direct (x8)
+15:22:16 [vite] hmr update /style.css?direct (x9)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.     
+Instead of /public/social-icons.svg, use /social-icons.svg.    
+15:22:25 [vite] hmr update /style.css?direct
+15:23:00 [vite] hmr update /style.css?direct (x2)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path. 
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:23:13 [vite] hmr update /style.css?direct
+15:23:36 [vite] hmr update /style.css?direct (x2)
+15:23:42 [vite] hmr update /style.css?direct (x3)
+15:23:53 [vite] hmr update /style.css?direct (x4)
+15:23:59 [vite] hmr update /style.css?direct (x5)
+15:25:13 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.       
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:25:14 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.       
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:25:31 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path. 
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:25:56 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.       
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:26:04 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:26:38 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:26:45 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.     
+Instead of /public/social-icons.svg, use /social-icons.svg.    
+15:26:54 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:27:01 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.      
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.     
+Instead of /public/social-icons.svg, use /social-icons.svg.    
+15:27:26 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:27:41 [vite] hmr update /style.css?direct
+15:28:02 [vite] hmr update /style.css?direct (x2)
+15:29:00 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.    
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:29:23 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:30:04 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.     
+Instead of /public/social-icons.svg, use /social-icons.svg.    
+15:30:17 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:30:22 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+15:30:43 [vite] hmr update /style.css?direct
+15:30:54 [vite] hmr update /style.css?direct (x2)
+15:30:59 [vite] hmr update /style.css?direct (x3)
+15:31:23 [vite] hmr update /style.css?direct (x4)
+15:31:29 [vite] hmr update /style.css?direct (x5)
+15:32:01 [vite] hmr update /style.css?direct (x6)
+15:32:08 [vite] hmr update /style.css?direct (x7)
+15:32:13 [vite] hmr update /style.css?direct (x8)
+15:32:16 [vite] hmr update /style.css?direct (x9)
+15:32:34 [vite] hmr update /style.css?direct (x10)
+15:32:43 [vite] hmr update /style.css?direct (x11)
+15:32:45 [vite] hmr update /style.css?direct (x12)
+15:32:49 [vite] hmr update /style.css?direct (x13)
+15:33:39 [vite] page reload index.html
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:33:57 [vite] hmr update /style.css?direct
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path. 
+Instead of /public/social-icons.svg, use /social-icons.svg.
+files in the public directory are served at the root path.     
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+15:34:16 [vite] hmr update /style.css?direct
+15:34:20 [vite] hmr update /style.css?direct (x2)
+15:34:34 [vite] hmr update /style.css?direct (x3)
+15:34:36 [vite] hmr update /style.css?direct (x4)
+15:34:37 [vite] hmr update /style.css?direct (x5)
+15:34:43 [vite] hmr update /style.css?direct (x6)
+15:34:50 [vite] hmr update /style.css?direct (x7)
+15:34:53 [vite] hmr update /style.css?direct (x8)
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg. 
+15:35:49 [vite] hmr update /style.css?direct
+15:35:51 [vite] hmr update /style.css?direct (x2)
+15:35:58 [vite] hmr update /style.css?direct (x3)
+files in the public directory are served at the root path.
+Instead of /public/logo.png, use /logo.png.
+files in the public directory are served at the root path.
+Instead of /public/icons8-menu.svg, use /icons8-menu.svg.
+files in the public directory are served at the root path.
+Instead of /public/bike-woods-min.png, use /bike-woods-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-race-pol-timestop-min.png, use /u18-race-pol-timestop-min.png.
+files in the public directory are served at the root path.
+Instead of /public/u18-sfilata-usa-hlding-flag.png, use /u18-sfilata-usa-hlding-flag.png.
+files in the public directory are served at the root path.
+Instead of /public/DJI_0561-1-1024x576.jpg, use /DJI_0561-1-1024x576.jpg.
+files in the public directory are served at the root path.
+Instead of /public/28092020-IMG_8414-Pano-scaled.jpg, use /28092020-IMG_8414-Pano-scaled.jpg.
+files in the public directory are served at the root path.
+Instead of /public/social-icons.svg, use /social-icons.svg.
+15:36:03 [vite] hmr update /style.css?direct
+15:36:14 [vite] hmr update /style.css?direct (x2)
+15:36:23 [vite] hmr update /style.css?direct (x3)
+15:36:25 [vite] hmr update /style.css?direct (x4)
+15:36:28 [vite] hmr update /style.css?direct (x5)
+15:36:32 [vite] hmr update /style.css?direct (x6)
+15:36:48 [vite] hmr update /style.css?direct (x7)
+15:37:17 [vite] hmr update /style.css?direct (x8)
+15:37:20 [vite] hmr update /style.css?direct (x9)
+15:37:42 [vite] hmr update /style.css?direct (x10)
+15:37:46 [vite] hmr update /style.css?direct (x11)
+15:38:00 [vite] hmr update /style.css?direct (x12)
+15:38:52 [vite] hmr update /style.css?direct (x13)
+15:38:58 [vite] hmr update /style.css?direct (x14)
+15:39:04 [vite] hmr update /style.css?direct (x15)
+15:40:05 [vite] hmr update /style.css?direct (x16)
+15:40:14 [vite] hmr update /style.css?direct (x17)
+15:41:01 [vite] hmr update /style.css?direct (x18)
+15:41:25 [vite] hmr update /style.css?direct (x19)
+15:41:56 [vite] hmr update /style.css?direct (x20)
+15:42:31 [vite] hmr update /style.css?direct (x21)
+15:42:38 [vite] hmr update /style.css?direct (x22)
+15:42:46 [vite] hmr update /style.css?direct (x23)
+15:42:57 [vite] hmr update /style.css?direct (x24)
+
