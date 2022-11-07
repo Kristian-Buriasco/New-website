@@ -17,6 +17,71 @@
     />
   </head>
   <body>
+    <div id="cookieNotice" class="light display-right" style="display: none; 
+    background-image: linear-gradient(0deg,var(--bg-clr), #252526 );
+    padding: 20px;">
+      <script> // Create cookie
+        function setCookie(cname, cvalue, exdays) {
+          const d = new Date();
+          d.setTime(d.getTime() + (exdays*24*60*60*1000));
+          let expires = "expires="+ d.toUTCString();
+          document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+        
+        // Delete cookie
+        function deleteCookie(cname) {
+          const d = new Date();
+          d.setTime(d.getTime() + (24*60*60*1000));
+          let expires = "expires="+ d.toUTCString();
+          document.cookie = cname + "=;" + expires + ";path=/";
+        }
+        
+        // Read cookie
+        function getCookie(cname) {
+          let name = cname + "=";
+          let decodedCookie = decodeURIComponent(document.cookie);
+          let ca = decodedCookie.split(';');
+          for(let i = 0; i <ca.length; i++) {
+              let c = ca[i];
+              while (c.charAt(0) == ' ') {
+                  c = c.substring(1);
+              }
+              if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+              }
+          }
+          return "";
+        }
+        
+        // Set cookie consent
+        function acceptCookieConsent(){
+          deleteCookie('user_cookie_consent');
+          setCookie('user_cookie_consent', 1, 30);
+          document.getElementById("cookieNotice").style.display = "none";
+        }
+        let cookie_consent = getCookie("user_cookie_consent");
+        if(cookie_consent != ""){
+            document.getElementById("cookieNotice").style.display = "none";
+        }else{
+            document.getElementById("cookieNotice").style.display = "block";
+            setTimeout(() => {  window.scrollTo(0,0); }, 5000);
+            
+        }
+        </script>
+      <div id="closeIcon" style="display: none;">
+      </div>
+      <div class="title-wrap">
+          <h4>Cookie Consent</h4>
+      </div>
+      <div class="content-wrap">
+          <div class="msg-wrap">
+              <p>This website uses cookies or similar technologies, to enhance your browsing experience and provide personalized recommendations. By continuing to use our website, you agree to our  <a style="color:var(--txt-clr);" href="/privacy-policy">Privacy Policy</a></p>
+              <div class="btn-wrap">
+                  <button class="btn-primary" onclick="acceptCookieConsent();">Accept</button>
+              </div>
+          </div>
+      </div>
+  </div>
     <div class="body">
       <script type="module" src="/main.js"></script>
       <div class="notafooter">
@@ -39,7 +104,7 @@
                 <img
                   class="icon-hamburger"
                   src="/public/icons8-menu.svg"
-                  alt=""
+                  alt="menu icon"
                   aria-hidden="true"
                   loading="lazy"
                 />
@@ -99,6 +164,7 @@
                       <div class="numbertext">1 / 5</div>
                       <img
                         src="/public/bike-woods-min.png"
+                        alt="motorbike in the woods"
                         style="max-height: 700px"
                         loading="lazy"
                       />
@@ -108,6 +174,7 @@
                       <div class="numbertext">2 / 5</div>
                       <img
                         src="/public/u18-race-pol-timestop-min.png"
+                        alt="international race polish runner"
                         style="max-height: 700px"
                         loading="lazy"
                       />
@@ -117,6 +184,7 @@
                       <div class="numbertext">3 / 5</div>
                       <img
                         src="/public/u18-sfilata-usa-hlding-flag.png"
+                        alt="international race award ceremony usa kid holding its flag"
                         style="max-height: 700px"
                         loading="lazy"
                       />
@@ -126,6 +194,7 @@
                       <div class="numbertext">4 / 5</div>
                       <img
                         src="/public/DJI_0561-1-1024x576.jpg"
+                        alt="drone view of a road in spring"
                         style="max-height: 700px"
                         loading="lazy"
                       />
@@ -135,6 +204,7 @@
                       <div class="numbertext">5 / 5</div>
                       <img
                         src="/public/28092020-IMG_8414-Pano-scaled.jpg"
+                        alt="panoramic view of mount monviso"
                         style="max-height: 700px"
                         loading="lazy"
                       />
@@ -245,13 +315,13 @@
             <div class="gapping">
               <nav class="footer-semi-nav">
                 <ul role="list">
-                  <li><a href="#">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
                   <li><a href="#about">About</a></li>
                   <!-- <li><a href="#contactme">Contact</a></li> -->
                   <li>
                     <a href="http://blog.kristianburiascophotos.gq/">Blog</a>
                   </li>
-                  <li><a href="galleries.html">Galleries</a></li>
+                  <li><a href="galleries.html">Galleries(COMING SOON)</a></li>
                 </ul>
               </nav>
             </div>
