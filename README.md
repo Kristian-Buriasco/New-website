@@ -1,9 +1,9 @@
 # New-website
 visit a preview of the new website [Here](https://new-website-9g7.pages.dev)
 
+## Changelog
 
-
-## UNRELEASED
+### UNRELEASED
 - enable the newsletter thing to work 
 - add contact me page 
 - add galleries page 
