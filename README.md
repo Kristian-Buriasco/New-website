@@ -8,6 +8,7 @@ visit a preview of the new website [Here](https://new-website-9g7.pages.dev)
 - add contact me page 
 - add galleries page 
 - design some images to go with the site 
+- add tags insta for photos
 
 ### ADDED
 - added lazy loading 
